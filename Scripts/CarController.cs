@@ -56,7 +56,6 @@ public class CarController : MonoBehaviour
 
     bool CheckForObstacle(int direction)
     {
-        Time.timeScale = .2f;
         //Used raycast to check if there is an obstacle in the way
         int layerMask = 1 << 6;
         RaycastHit hit;
